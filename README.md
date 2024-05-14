@@ -10,9 +10,6 @@ then...
 Try running this powershell script "Run as Administrator".  Follow the instructions in this article.
 https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/add-update-to-winre?view=windows-11#extend-the-windows-re-partition
 
-
-https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/add-update-to-winre?view=windows-11#extend-the-windows-re-partition
-
 **Extend the Windows RE Partition**
 The sample script below can be used to increase the size of recovery partition to successfully update Windows Recovery Environment (WinRE). It is recommended to have 250MB of free space in the recovery partition for WinRE updates to install successfully. On devices that may not have adequate free space in the recovery partition, the sample script below can be used to extend the recovery partition by 250 MB.
 
